@@ -8,30 +8,37 @@
     border: 10px solid #1C0F13;
 }
 .aschenbrenner-box {
-	height: 230px;
+	height: 200px;
 	img {
 		width: 30em;
 		padding: 10px 0;
 	}
 	p {
-		color: #1C0F13;
+		color: #AFABA9;
 		letter-spacing: 7px;
 	    font-weight: lighter;
 	    margin-top: 28px;
 	    font-size: 30px;
 	    padding-left: 7px;
 	}
-	h1, h2, h3, h4, h5 {
-		color: #AFABA9;
+	h1, h2, h3, h5 {
+		color: #1C0F13;
 		font-weight: lighter;
 		letter-spacing: 1px;
 	}
 	a {
 		color: #AFABA9;
+		font-weight: lighter;
 		text-decoration: none;
 	}
 	a:hover {
 		color: #CCC9C8;
+	}
+	.address {
+		margin-top: 35px;
+	}
+	.coming-soon {
+		margin-top: 35px;
 	}
 }
 @media only screen and (max-width:650px){
@@ -41,9 +48,6 @@
 			padding: 5px 0;
 		}
 	}
-}
-.address {
-	margin-top:	20px;
 }
 @media only screen and (max-width:490px){
 	.aschenbrenner-box {
